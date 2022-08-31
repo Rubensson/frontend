@@ -1,10 +1,37 @@
 .welcome {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   position: absolute;
   width: 100vw;
   height: 100vh;
   background-color: #1f4690;
   /* visibility: hidden; */
+}
+h2 {
+  color: var(--color-blanco);
+  font-family: var(--barlow-font);
+  text-align: center;
+}
+.images {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+@keyframes logos {
+  0% {
+    filter: opacity(0);
+  }
+  100% {
+    filter: opacity(0.9);
+    transform: scale(0.7);
+  }
+}
+
+.images img {
+  width: 40%;
+  animation: logos 2s forwards;
+}
+.btn {
+  font-family: var(--dosis-font);
 }

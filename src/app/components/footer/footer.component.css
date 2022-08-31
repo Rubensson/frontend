@@ -82,6 +82,9 @@
   font-size: var(--text-font-zise);
   font-weight: var(--text-font-weight);
 }
+.btn {
+  font-family: var(--barlow-font);
+}
 @media screen and (max-width: 800px) {
   .contact-me {
     width: 90%;

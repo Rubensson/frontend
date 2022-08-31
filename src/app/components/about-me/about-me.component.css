@@ -54,4 +54,7 @@
   .profile_img img {
     width: 100%;
   }
+  .container-profile h2 {
+    text-align: center;
+  }
 }

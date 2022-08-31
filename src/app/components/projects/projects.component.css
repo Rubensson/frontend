@@ -16,6 +16,7 @@
   width: 25%;
 }
 .project-item-text {
+  font-family: var(--barlow-font);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -24,7 +25,7 @@
   width: 100%;
   gap: 1rem;
   display: flex;
-  justify-content: start;
+  align-items: flex-start;
 }
 .buttons button i {
   margin-right: 0.5em;

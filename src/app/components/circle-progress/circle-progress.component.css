@@ -5,3 +5,8 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
+@media screen and (max-width: 800px) {
+  .container-circle_bars {
+    width: 80%;
+  }
+}

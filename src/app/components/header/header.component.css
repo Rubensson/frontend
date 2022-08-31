@@ -5,9 +5,9 @@
   justify-content: space-between;
   align-items: center;
 }
-#ap-logo {
-  width: 100%;
-
+#ap-logo,
+#ruben-logo {
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -16,7 +16,8 @@ nav {
   flex-direction: column;
 }
 nav a {
-  font-size: 1.5em;
+  font-family: var(--barlow-font);
+  font-size: 1rem;
   text-decoration: none;
   color: var(--color-blanco);
 }
@@ -24,12 +25,17 @@ nav a:hover {
   color: var(--color-amarillo);
 }
 .social {
-  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+.btn {
+  font-family: var(--dosis-font);
 }
 
 .social i {
-  font-size: 2em;
-  margin: 0.5rem;
+  font-size: 1.5em;
   color: var(--color-blanco);
 }
 .social i:hover {
@@ -37,9 +43,10 @@ nav a:hover {
 }
 @media screen and (max-width: 800px) {
   .container-header {
-    width: 95vw;
+    width: 95%;
     height: auto;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
   }
@@ -52,16 +59,9 @@ nav a:hover {
     justify-content: space-around;
     flex-direction: row;
   }
-  nav a {
-    font-size: medium;
-  }
-  #ap-logo {
+
+  #ap-logo,
+  #ruben-logo {
     width: 10rem;
-  }
-  .btn {
-    margin-top: 1rem;
-  }
-  .logo-ruben {
-    width: 15rem;
   }
 }

@@ -17,6 +17,7 @@
   height: 200px;
 }
 .skill-item-text {
+  font-family: var(--barlow-font);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -24,8 +25,6 @@
 .buttons {
   width: 100%;
   gap: 1rem;
-  display: flex;
-  justify-content: start;
 }
 .buttons button i {
   margin-right: 0.5em;
