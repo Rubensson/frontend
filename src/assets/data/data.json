@@ -1,0 +1,70 @@
+{
+  "hero_img": "#",
+  "name": "Ruben Matias Acosta",
+  "profile_img": "../PortfolioWeb/src/assets/images/working1.jpg",
+  "location": "San Lorenzo, Santa Fe, Argentina",
+  "profileText": "lorem, ipsum dolor sit amet consectetur adipisicing elit officia. Voluptate accusamus recusandae reiciendis iste non veniam fuga distinctio excepturi praesentium sed impedit inventore incidunt labore aliquam",
+  "email": "rubenm.acosta@gmail.com",
+  "position": {
+    "name": "Desarrollador web full stack",
+    "description": "lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, officia."
+  },
+
+  "education": {
+    "name": "Argentina Programa",
+    "img": "#",
+    "url": "#"
+  },
+
+  "skills": [
+    {
+      "name": "Desarrollo web full stack",
+      "description": "lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, officia."
+    },
+    {
+      "name": "Diseño Gráfico",
+      "description": "lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, officia."
+    },
+    {
+      "name": "Marketing Digital",
+      "description": "lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, officia."
+    },
+    {
+      "name": "Desarrollo de juegos en javascript",
+      "description": "lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, officia."
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Titulo de Proyecto",
+      "description": "lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, officia.",
+      "img": "#"
+    },
+    {
+      "name": "Titulo de Proyecto",
+      "description": "lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, officia.",
+      "img": "#"
+    },
+    {
+      "name": "Titulo de Proyecto",
+      "description": "lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, officia.",
+      "img": "#"
+    },
+    {
+      "name": "Titulo de Proyecto",
+      "description": "lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, officia.",
+      "img": "#"
+    },
+    {
+      "name": "Titulo de Proyecto",
+      "description": "lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, officia.",
+      "img": "#"
+    },
+    {
+      "name": "Titulo de Proyecto",
+      "description": "lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, officia.",
+      "img": "#"
+    }
+  ]
+}

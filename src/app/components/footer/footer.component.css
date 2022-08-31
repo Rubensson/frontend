@@ -1,0 +1,89 @@
+.container-contact {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact-me {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 1rem;
+}
+.contact-me input {
+  height: 50px;
+  border-radius: 5px;
+  background-color: var(--color-blanco);
+  font-family: var(--button-font);
+  font-size: var(--button-font-zise);
+  font-weight: var(--button-font-weight);
+  border: none;
+  margin: 5px;
+}
+.contact-me .message-input {
+  height: 150px;
+}
+.contact-me input::placeholder {
+  text-align: center;
+  padding-top: 0;
+}
+.btn-send {
+  width: auto;
+  margin: 1rem auto;
+}
+.contact-items {
+  color: var(--color-blanco);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contact-item {
+  width: 15rem;
+  text-align: center;
+  margin: 1rem;
+}
+.contact-item:hover .logo-contact-item {
+  transform: rotateY(180deg);
+  color: var(--color-rojo);
+}
+.logo-contact-item {
+  font-size: 32px;
+  padding: 5px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  transition: 0.2s;
+}
+
+.social-copy {
+  padding: 2rem;
+  background-color: var(--color-amarillo);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1rem;
+  align-items: center;
+  color: var(--color-azul-oscuro);
+}
+
+.socialmedia a {
+  font-size: 24px;
+  color: var(--color-azul-oscuro);
+}
+.subtitle-contact {
+  font-family: var(--h3-font);
+  font-weight: var(--h3-font-weight);
+  font-size: var(--h3-font-zise);
+  margin-bottom: 10px;
+}
+.text-contact,
+.copyright {
+  font-family: var(--text-font);
+  font-size: var(--text-font-zise);
+  font-weight: var(--text-font-weight);
+}
+@media screen and (max-width: 800px) {
+  .contact-me {
+    width: 90%;
+  }
+}

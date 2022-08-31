@@ -1,0 +1,42 @@
+<div class="container-load-skill">
+  <div class="row">
+    <div>
+      <form (ngSubmit)="onCreate()" novalidate #f="ngForm">
+        <div class="form-group">
+          <label for="skillName">Titulo de habilidad</label>
+          <input
+            type="text"
+            class="form-control"
+            id="skillName"
+            name="skillName"
+            [(ngModel)]="skillName"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="description">Descripción</label>
+          <input
+            type="text"
+            class="form-control"
+            id="description"
+            name="description"
+            [(ngModel)]="description"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="skill-image">Link de imagen</label>
+          <input
+            type="text"
+            class="form-control"
+            id="skill-image"
+            name="skill-image"
+            [(ngModel)]="skill_img"
+            required
+          />
+        </div>
+        <button class="btn btn-primary">Agregar</button>
+      </form>
+    </div>
+  </div>
+</div>

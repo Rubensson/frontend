@@ -1,0 +1,42 @@
+<div class="container-skills" id="section-skills">
+  <app-titulo-section tituloSection="{{ tituloSection }}"></app-titulo-section>
+  <div class="container-skill-item" *ngFor="let Skills of skills">
+    <div class="skill-item-text">
+      <h2>{{ Skills.skillName }}</h2>
+      <p>{{ Skills.description }}</p>
+      <div class="buttons">
+        <button
+          class="btn btn-warning"
+          type="button"
+          *ngIf="isLogged"
+          routerLink="/edit-skills/{{ Skills.id }}"
+        >
+          <i class="bx bxs-pencil"> </i>
+          Modificar
+        </button>
+        <button
+          class="btn btn-warning"
+          *ngIf="isLogged"
+          (click)="delete(Skills.id)"
+        >
+          <i class="bx bxs-trash"></i>
+          Borrar
+        </button>
+      </div>
+    </div>
+
+    <img src="{{ Skills.skill_img }}" alt="skill-image" />
+  </div>
+  <div class="btn-create">
+    <button
+      class="btn btn-warning"
+      type="button"
+      routerLink="/new-skills"
+      *ngIf="isLogged"
+    >
+      <i class="bx bxs-message-square-add"></i>Crear
+    </button>
+  </div>
+
+  <app-circle-progress></app-circle-progress>
+</div>

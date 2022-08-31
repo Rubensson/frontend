@@ -1,0 +1,41 @@
+<div class="container-projects" id="section-projects">
+  <app-titulo-section tituloSection="{{ tituloSection }}"></app-titulo-section>
+  <div class="container-projects-item" *ngFor="let Project of project">
+    <div class="project-item-text">
+      <h2>{{ Project.projectName }}</h2>
+      <p>{{ Project.description }}</p>
+
+      <div class="buttons">
+        <button
+          class="btn btn-warning"
+          type="button"
+          *ngIf="isLogged"
+          routerLink="/edit-project/{{ Project.id }}"
+        >
+          <i class="bx bxs-pencil"> </i>
+          Modificar
+        </button>
+        <button
+          class="btn btn-warning"
+          *ngIf="isLogged"
+          (click)="delete(Project.id)"
+        >
+          <i class="bx bxs-trash"></i>
+          Borrar
+        </button>
+      </div>
+    </div>
+
+    <img src="./assets/images/working1.jpg" alt="project-image" />
+  </div>
+  <div class="btn-create">
+    <button
+      class="btn btn-warning"
+      type="button"
+      routerLink="/new-project"
+      *ngIf="isLogged"
+    >
+      <i class="bx bxs-message-square-add"></i>Crear
+    </button>
+  </div>
+</div>

@@ -1,0 +1,36 @@
+<div class="container-header">
+  <a href=""
+    ><img src="../assets/logos/APLogo-20-20.png" alt="" id="ap-logo"
+  /></a>
+  <div class="logo-ruben">Ruben</div>
+  <nav class="nav">
+    <a href="home/#section-home">Inicio</a>
+    <a href="home/#section-about_me">Sobre mí</a>
+    <a href="home/#section-skills">Habilidades</a>
+    <a href="home/#section-projects">Proyectos</a>
+    <a href="home/#section-footer">Contacto</a>
+  </nav>
+  <button
+    type="button"
+    class="btn btn-primary"
+    (click)="login()"
+    *ngIf="!isLogged"
+  >
+    LOGIN
+  </button>
+  <button
+    type="button"
+    class="btn btn-primary"
+    (click)="onlogOut()"
+    *ngIf="isLogged"
+  >
+    LOGOUT
+  </button>
+  <div class="social">
+    <a href="#"><i class="bx bxl-github logo-socialmedia"></i></a>
+    <a href="#"><i class="bx bxl-linkedin logo-socialmedia"></i></a>
+    <a href="#"><i class="bx bxl-twitter logo-socialmedia"></i></a>
+    <a href="#"><i class="bx bxl-pinterest logo-socialmedia"></i></a>
+    <a href="#"><i class="bx bxl-instagram logo-socialmedia"></i></a>
+  </div>
+</div>

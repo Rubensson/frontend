@@ -1,0 +1,48 @@
+:root {
+  --color-azul: #1f4690;
+  --color-azul-oscuro: #182e55;
+  --color-amarillo: #e79c1b;
+  --color-blanco: #fffcf7;
+  --color-rojo: #d64a4a;
+
+  --h2-font: "barlow", sans-serif;
+  --h1-font: "Barlow", sans-serif;
+  --h1-font-zise: 40px;
+  --h1-font-weight: 700;
+  --h2-font: "Dosis", sans-serif;
+  --h2-font-zise: 30px;
+  --h2-font-weight: 500;
+  --h3-font: "Barlow", sans-serif;
+  --h3-font-zise: 22px;
+  --h3-font-weight: 400;
+  --button-font: "Barlow", sans-serif;
+  --button-font-zise: 12px;
+  --button-font-weight: 500;
+  --text-font: "Barlow", sans-serif;
+  --text-font-zise: 14px;
+  --text-font-weight: 500;
+  --caption-font: "Barlow", sans-serif;
+  --caption-font-zise: 12px;
+  --caption-font-weight: 300;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.titulo-section {
+  margin: auto;
+  width: 300px;
+  font-family: var(--h2-font);
+  font-size: var(--h2-font-zise);
+  color: #e8aa42;
+  text-align: center;
+  padding: 1rem;
+  border-bottom: 1px solid #e8aa42;
+}
+.btn-modify {
+  margin: 3rem auto;
+  text-align: center;
+}

@@ -1,0 +1,38 @@
+.container-projects {
+  height: 100vh;
+  border-bottom: solid 1px #1f4690;
+}
+.container-projects-item {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  border: 1px solid var(--color-amarillo);
+  border-radius: 5px;
+  margin: 3rem auto;
+  padding: 1rem;
+  color: var(--color-blanco);
+}
+.container-projects-item img {
+  width: 25%;
+}
+.project-item-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.buttons {
+  width: 100%;
+  gap: 1rem;
+  display: flex;
+  justify-content: start;
+}
+.buttons button i {
+  margin-right: 0.5em;
+}
+.btn-create {
+  text-align: center;
+  margin: 2rem;
+}
+.btn-create > button {
+  margin: auto;
+}

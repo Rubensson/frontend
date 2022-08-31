@@ -1,0 +1,25 @@
+<div class="container-about_me" id="section-about_me">
+  <app-titulo-section tituloSection="{{ tituloSection }}"></app-titulo-section>
+  <div class="container-info">
+    <div class="profile_img">
+      <img src="./assets/images/working1.jpg" alt="profile-photo" />
+    </div>
+    <div class="info">
+      <h3>
+        <span>{{ person.name }}</span>
+      </h3>
+      <br />
+      <p>{{ person.position }}</p>
+      <!-- <p>{{ datosPortfolio.position.positionLocation }}</p> -->
+
+      <!-- <p>{{ datosPortfolio.education.name }}</p> -->
+      <!-- <p>{{ datosPortfolio.education.educationLocation }}</p> -->
+      <p>{{ person.location }}</p>
+      <p>{{ person.email }}</p>
+    </div>
+  </div>
+  <div class="container-profile">
+    <h2>Más acerca de mí</h2>
+    <p>{{ person.profile_text }}</p>
+  </div>
+</div>
