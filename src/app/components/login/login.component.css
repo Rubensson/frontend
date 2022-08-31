@@ -1,17 +1,28 @@
-.bg-image-vertical {
-  position: relative;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: cover;
-}
-
-@media (min-width: 1025px) {
-}
 .login {
-  width: 100vw;
+  display: flex;
+
   background-color: #1f4690;
 }
 #logo-ruben {
-  width: 90%;
+  width: 60%;
+}
+.container-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.image {
+  width: 50%;
+  height: 100vh;
+  overflow: hidden;
+}
+.image img {
+  height: 100%;
+}
+@media screen and (max-width: 800px) {
+  .image {
+    display: none;
+  }
 }
