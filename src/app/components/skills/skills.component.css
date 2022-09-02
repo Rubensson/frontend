@@ -22,9 +22,9 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.buttons {
-  width: 100%;
-  gap: 1rem;
+
+.buttons button {
+  margin-right: 1rem;
 }
 .buttons button i {
   margin-right: 0.5em;
@@ -35,4 +35,9 @@
 }
 .btn-create > button {
   margin: auto;
+}
+@media screen and (max-width: 800px) {
+  .container-skill-item img {
+    display: none;
+  }
 }
