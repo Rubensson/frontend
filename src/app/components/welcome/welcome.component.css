@@ -32,6 +32,6 @@ h2 {
   width: 40%;
   animation: logos 2s forwards;
 }
-.btn {
-  font-family: var(--dosis-font);
+a {
+  margin: auto;
 }

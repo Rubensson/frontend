@@ -1,5 +1,7 @@
 .container-hero {
   height: 100vh;
+  background-image: url(/assets/images/edificio2.jpg);
+  background-size: cover;
 }
 .container-hero img {
   width: 100%;
