@@ -1,16 +1,21 @@
 .container-skills {
   min-height: 100vh;
-  border-bottom: solid 1px #1f4690;
+  border-bottom: solid 1px var(--color-negro-sombra);
 }
 .container-skill-item {
   display: flex;
   justify-content: space-between;
   width: 80%;
-  border: 1px solid var(--color-amarillo);
+  border: 1px solid var(--color-negro-borde);
+  box-shadow: 2px 2px 4px var(--color-negro-sombra);
   border-radius: 5px;
   margin: 3rem auto;
   padding: 1rem;
-  color: var(--color-blanco);
+  color: var(--color-negro-claro);
+}
+.skill-item-text > h2 {
+  color: var(--color-negro-oscuro);
+  font-weight: 400;
 }
 .container-skill-item img {
   width: 25%;

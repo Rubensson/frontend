@@ -1,0 +1,25 @@
+.container-load-project {
+  height: 100vh;
+  background-color: var(--color-azul);
+  color: var(--color-negro-claro);
+  padding-top: 3rem;
+}
+.container {
+  width: 50%;
+  background-color: var(--color-blanco);
+  padding: 2rem;
+  border-radius: 3px;
+}
+.form-group {
+  margin: 1rem 0;
+}
+input {
+  border-radius: 3px;
+  background-color: var(--color-blanco);
+  border: 1px solid var(--color-negro-borde);
+}
+@media screen and (max-width: 800px) {
+  .container {
+    width: 90%;
+  }
+}

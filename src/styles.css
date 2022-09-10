@@ -1,13 +1,19 @@
 :root {
-  --color-azul: #1f4690;
+  --color-azul: hsl(219, 67%, 42%);
   --color-azul-oscuro: #182e55;
   --color-amarillo: #e79c1b;
   --color-blanco: #fffcf7;
   --color-rojo: #d64a4a;
+  --color-negro-borde: hsla(0, 0%, 64%, 0.452);
+  --color-negro-sombra: hsla(0, 0%, 75%, 0.253);
+  --color-negro-claro: hsla(0, 0%, 38%, 0.753);
+
+  --color-negro-oscuro: hsla(0, 0%, 13%, 0.877);
 
   --barlow-font: "barlow", sans-serif;
 
   --dosis-font: "Dosis", sans-serif;
+  --roboto-font: "Roboto Condensed", sans-serif;
 }
 * {
   padding: 0;
@@ -15,18 +21,17 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: var(--roboto-font);
+}
 .titulo-section {
   margin: auto;
-  width: 300px;
-  font-family: var(--dosis-font);
+  width: 200px;
+  font-family: var(--roboto-font);
+  font-weight: 400;
   font-size: 1.5rem;
-  color: #e8aa42;
+  color: var(--color-azul);
   text-align: center;
   padding: 1rem;
-  border-bottom: 1px solid #e8aa42;
-}
-.btn {
-  /* font-family: var(--dosis-font); */
-  margin: 3rem auto;
-  text-align: center;
+  border-bottom: 1px solid var(--color-azul);
 }

@@ -24,12 +24,12 @@ hr {
   margin-left: 10%;
 }
 .hero-text h1 {
-  font-family: var(--barlow-font);
+  font-family: var(--roboto-font);
   text-shadow: 2px 2px 5px rgb(39, 39, 39);
   font-size: 96px;
 }
 .hero-text p {
-  font-family: var(--barlow-font);
+  font-family: var(--roboto-font);
   text-shadow: 2px 2px 5px rgb(39, 39, 39);
   font-size: 36px;
 }
@@ -42,7 +42,7 @@ hr {
   margin-top: 200px;
 }
 .welcome p {
-  font-family: var(--barlow-font);
+  font-family: var(--roboto-font);
   font-size: 16px;
   text-shadow: 2px 2px 5px rgb(39, 39, 39);
 }
