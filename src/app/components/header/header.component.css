@@ -53,6 +53,9 @@ nav a:hover {
   .social {
     display: none;
   }
+  .btn {
+    margin-right: 1rem;
+  }
   nav {
     width: 100%;
     display: inline-flex;
@@ -63,5 +66,14 @@ nav a:hover {
   #ap-logo,
   #ruben-logo {
     width: 10rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  #ap-logo,
+  #ruben-logo {
+    width: 8rem;
+  }
+  .btn {
+    margin-right: 0.5rem;
   }
 }

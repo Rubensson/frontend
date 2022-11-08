@@ -7,7 +7,7 @@ import { Person } from '../model/person.model';
   providedIn: 'root',
 })
 export class ServiceService {
-  //URL = 'http://localhost:8080/person/';
+  // URL = 'http://localhost:8080/person/';
   URL = ' https://bkndportfolio.herokuapp.com/person/';
 
   constructor(private http: HttpClient) {}
