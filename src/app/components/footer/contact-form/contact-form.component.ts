@@ -7,7 +7,15 @@ import { FormBuilder, FormGroup } from '@angular/forms';
   styleUrls: ['./contact-form.component.css'],
 })
 export class ContactFormComponent implements OnInit {
-  constructor() {}
+  form: FormGroup;
+
+  constructor(private formBuilder: FormBuilder) {
+    this.form = this.formBuilder.group({
+      name: ['', []],
+      email: ['', []],
+      message: ['', []],
+    });
+  }
 
   ngOnInit(): void {}
 }
