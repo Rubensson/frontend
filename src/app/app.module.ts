@@ -17,7 +17,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { CircleProgressComponent } from './components/circle-progress/circle-progress.component';
 import { LoginComponent } from './components/login/login.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { interceptorProvider } from './services/interceptor.service';
 import { NewSkillsComponent } from './components/skills/new-skills.component';
 import { EditSkillsComponent } from './components/skills/edit-skills.component';
@@ -49,6 +49,7 @@ import { EditProjectComponent } from './components/projects/edit-project.compone
     HttpClientModule,
     NgCircleProgressModule.forRoot({}),
     FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [interceptorProvider],
   bootstrap: [AppComponent],
