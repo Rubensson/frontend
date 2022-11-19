@@ -1,16 +1,7 @@
 <div class="container-contact" id="section-footer">
   <app-titulo-section tituloSection="{{ tituloSection }}"></app-titulo-section>
-
-  <div class="subscribe-container">
-    <form class="contact-me">
-      <input type="text" class="name-input" placeholder="Name" />
-      <input type="text" class="amail-input" placeholder="Email" />
-      <input type="text" class="message-input" placeholder="Message" />
-      <div class="btn-send">
-        <button class="btn btn-primary" type="submit">Enviar</button>
-      </div>
-    </form>
-  </div>
+  <app-contact-form></app-contact-form>
+  <div class="subscribe-container"></div>
   <div class="contact-items">
     <div class="address contact-item">
       <i class="bx bx-map logo-contact-item"></i>
@@ -52,9 +43,6 @@
         ><i class="bx bxl-instagram logo-socialmedia"></i
       ></a>
     </div>
-    <div class="copyright">
-      Rubensson Desarrollo Web. © 2022 <br />
-      by @Rubensson
-    </div>
+    <div class="copyright">Rubensson Desarrollo Web. © 2022 by @Rubensson</div>
   </div>
 </div>
