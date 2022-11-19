@@ -23,6 +23,7 @@ import { NewSkillsComponent } from './components/skills/new-skills.component';
 import { EditSkillsComponent } from './components/skills/edit-skills.component';
 import { NewProjectComponent } from './components/projects/new-project.component';
 import { EditProjectComponent } from './components/projects/edit-project.component';
+import { ContactFormComponent } from './components/footer/contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { EditProjectComponent } from './components/projects/edit-project.compone
     EditSkillsComponent,
     NewProjectComponent,
     EditProjectComponent,
+    ContactFormComponent,
   ],
   imports: [
     BrowserModule,
