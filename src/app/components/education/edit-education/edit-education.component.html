@@ -1,0 +1,42 @@
+<div class="container-edit-education" *ngIf="education">
+  <div class="container">
+    <div>
+      <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+        <div class="form-group">
+          <label for="educationName">Titulo de habilidad</label>
+          <input
+            type="text"
+            class="form-control"
+            id="educationName"
+            name="educationName"
+            [(ngModel)]="education.educationName"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="description">Desccripción</label>
+          <input
+            type="text"
+            class="form-control"
+            id="description"
+            name="description"
+            [(ngModel)]="education.description"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="education-image">Link de imagen</label>
+          <input
+            type="text"
+            class="form-control"
+            id="education-image"
+            name="education-image"
+            [(ngModel)]="education.education_img"
+            required
+          />
+        </div>
+        <button class="btn btn-primary">Actualizar</button>
+      </form>
+    </div>
+  </div>
+</div>

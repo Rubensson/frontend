@@ -1,0 +1,40 @@
+<div class="container-education" id="section-education">
+  <app-titulo-section tituloSection="{{ tituloSection }}"></app-titulo-section>
+  <div class="container-education-item" *ngFor="let Education of education">
+    <div class="education-item-text">
+      <h2>{{ Education.educationName }}</h2>
+      <p>{{ Education.description }}</p>
+      <div class="buttons">
+        <button
+          class="btn btn-secondary"
+          type="button"
+          *ngIf="isLogged"
+          routerLink="/edit-education/{{ Education.id }}"
+        >
+          <i class="bx bxs-pencil"> </i>
+          Modificar
+        </button>
+        <button
+          class="btn btn-secondary"
+          *ngIf="isLogged"
+          (click)="delete(Education.id)"
+        >
+          <i class="bx bxs-trash"></i>
+          Borrar
+        </button>
+      </div>
+    </div>
+
+    <img src="{{ Education.education_img }}" alt="Education-image" />
+  </div>
+  <div class="btn-create">
+    <button
+      class="btn btn-primary"
+      type="button"
+      routerLink="/new-education"
+      *ngIf="isLogged"
+    >
+      <i class="bx bxs-message-square-add"></i> Crear
+    </button>
+  </div>
+</div>

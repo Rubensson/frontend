@@ -9,7 +9,7 @@ import { Project } from 'src/app/model/project';
   styleUrls: ['./projects.component.css'],
 })
 export class ProjectsComponent implements OnInit {
-  tituloSection: string = 'Projects';
+  tituloSection: string = 'Proyectos';
 
   project: Project[] = [];
   isLogged = false;
