@@ -8,10 +8,10 @@ import { TokenService } from 'src/app/services/token.service';
   templateUrl: './education.component.html',
   styleUrls: ['./education.component.css'],
 })
-export class SkillsComponent implements OnInit {
-  tituloSection: string = 'Habilidades';
+export class EducationComponent implements OnInit {
+  tituloSection: string = 'Educación';
 
-  skills: Education[] = [];
+  education: Education[] = [];
   isLogged = false;
 
   constructor(
@@ -20,7 +20,7 @@ export class SkillsComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.loadSkills();
+    this.loadEducation();
 
     if (this.tokenService.getToken()) {
       this.isLogged = true;
@@ -29,16 +29,16 @@ export class SkillsComponent implements OnInit {
     }
   }
 
-  loadSkills(): void {
+  loadEducation(): void {
     this.educationService.list().subscribe((data) => {
-      this.skills = data;
+      this.education = data;
     });
   }
   delete(id?: number) {
     if (id != undefined) {
       this.educationService.delete(id).subscribe(
         (data) => {
-          this.loadSkills();
+          this.loadEducation();
         },
         (err) => {
           alert('Not deleted skill');

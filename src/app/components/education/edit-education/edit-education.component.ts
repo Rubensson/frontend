@@ -8,7 +8,7 @@ import { EducationService } from 'src/app/services/education.service';
   templateUrl: './edit-education.component.html',
   styleUrls: ['./edit-education.component.css'],
 })
-export class EditSkillsComponent implements OnInit {
+export class EditEducationComponent implements OnInit {
   education: Education = null;
   constructor(
     private educationervice: EducationService,

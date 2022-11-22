@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { EditEducationComponent } from './components/education/edit-education/edit-education.component';
+import { NewEducationComponent } from './components/education/new-education/new-education.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { EditProjectComponent } from './components/projects/edit-project.component';
