@@ -19,7 +19,7 @@ const routes: Routes = [
   { path: 'edit-skills/:id', component: EditSkillsComponent },
   { path: 'new-project', component: NewProjectComponent },
   { path: 'edit-project/:id', component: EditProjectComponent },
-  { path: 'new-education/:id', component: NewEducationComponent },
+  { path: 'new-education', component: NewEducationComponent },
   { path: 'edit-education/:id', component: EditEducationComponent },
 ];
 

@@ -41,7 +41,7 @@ export class EducationComponent implements OnInit {
           this.loadEducation();
         },
         (err) => {
-          alert('Not deleted skill');
+          alert('Not deleted education');
         }
       );
     }

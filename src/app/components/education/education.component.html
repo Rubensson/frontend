@@ -6,7 +6,7 @@
       <p>{{ Education.description }}</p>
       <div class="buttons">
         <button
-          class="btn btn-secondary"
+          class="btn btn-light"
           type="button"
           *ngIf="isLogged"
           routerLink="/edit-education/{{ Education.id }}"
@@ -15,7 +15,7 @@
           Modificar
         </button>
         <button
-          class="btn btn-secondary"
+          class="btn btn-light"
           *ngIf="isLogged"
           (click)="delete(Education.id)"
         >

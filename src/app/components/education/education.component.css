@@ -3,6 +3,7 @@
   border-bottom: solid 1px var(--color-negro-sombra);
 }
 .container-education-item {
+  background-color: hsl(219, 72%, 52%);
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -11,10 +12,9 @@
   border-radius: 5px;
   margin: 3rem auto;
   padding: 1rem;
-  color: var(--color-negro-claro);
+  color: var(--color-blanco);
 }
 .education-item-text > h2 {
-  color: var(--color-negro-oscuro);
   font-weight: 400;
 }
 .container-education-item img {
